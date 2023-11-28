@@ -1,0 +1,5 @@
+create database flaskdb1;
+use flaskdb1;
+create table flasktable(user_id varchar(30) NOT NULL,password_user varchar(30) NOT NULL);
+insert into flasktable(user_id,password_user) values ('apurva','apurva1234');
+SELECT * from flasktable;
