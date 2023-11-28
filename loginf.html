@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .container {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+          h3 {
+            font-size: 18px;
+            color: #007BFF; /* Set text color to dark blue */
+        }
+        input {
+            display: block;
+            width: 100%;
+            padding: 6px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            background-color: #f9f9f9; /* Light grey background */
+        }
+        input[type="submit"] {
+            background-color: #007BFF; /* Blue button */
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login Page</h2><br>
+        <form action="/loginf" method="POST">
+            <h3>Username:</h3>
+            <input type="text" id="username" name="username" required>
+
+            <h3>Password:</h3>
+            <input type="password" id="password" name="password" required>
+            <br>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
+
