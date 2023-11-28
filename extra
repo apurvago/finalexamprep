@@ -1,0 +1,10 @@
+Module - a bunch of related code saved in a file with the extension .py
+Packages - a directory of a collection of modules  eg. numpy, pandas, pytest
+Library - a collection of packages eg. Matplotlib, Pytorch, Requests
+Frameworks - contains basic flow and architecture of the application  for eg. django, flask, bottle
+Hypertext Transfer Protocol (HTTP)-- used to load webpages using hypertext links
+          GET: to request data from the server.
+          POST: to submit data to be processed to the server.
+          PUT: A PUT request is used to modify the data on the server. It replaces the entire content at a particular location with data that is passed in the body payload. If there are no resources that match the request, it will generate one.
+          PATCH: PATCH is similar to a PUT request, but the only difference is, it modifies a part of the data. It will only replace the content that you want to update.
+          DELETE: A DELETE request is used to delete the data on the server at a specified location.
